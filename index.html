@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quanto tempo você passa nas redes sociais?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Quanto tempo você passa nas redes sociais?</h1>
+    <p class="intro">Digite quantas horas por dia você usa redes sociais e veja o que isso significa na semana e no mês.</p>
+
+    <label for="horas">Horas por dia</label>
+    <div class="linha">
+      <input type="number" id="horas" min="0" max="24" step="0.5" placeholder="Ex.: 3.5">
+      <button id="calcular">Calcular</button>
+    </div>
+
+    <div id="resultado" aria-live="polite"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
